@@ -1,4 +1,4 @@
-#' Use the bulk API to create, index, update, or delete documents.
+#' Use the bulk API to create, index, update, or delete documents
 #'
 #' @export
 #' @param conn an Elasticsearch connection object, see [connect()]

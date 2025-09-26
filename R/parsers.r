@@ -1,4 +1,4 @@
-#' Parse raw data from es_get, es_mget, or es_search.
+#' Parse raw data from es_get, es_mget, or es_search
 #'
 #' @param input Output from solr_facet
 #' @param parsetype One of 'list' or 'df' (data.frame). Only list possible for now.

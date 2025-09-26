@@ -1,4 +1,4 @@
-#' Explain a search query.
+#' Explain a search query
 #'
 #' @export
 #' @param conn an Elasticsearch connection object, see [connect()]

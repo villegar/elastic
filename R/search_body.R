@@ -1,4 +1,4 @@
-#' Full text search of Elasticsearch - body requests.
+#' Full text search of Elasticsearch - body requests
 #'
 #' @keywords internal
 #' @param conn an Elasticsearch connection object, see [connect()]

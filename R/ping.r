@@ -1,4 +1,4 @@
-#' Ping an Elasticsearch server.
+#' Ping an Elasticsearch server
 #'
 #' @export
 #' @param conn an Elasticsearch connection object, see [connect()]

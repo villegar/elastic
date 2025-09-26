@@ -1,6 +1,6 @@
 elastic_env <- new.env()
 
-#' Set connection details to an Elasticsearch engine.
+#' Set connection details to an Elasticsearch engine
 #'
 #' @export
 #' @param host (character) The base host, defaults to `127.0.0.1`

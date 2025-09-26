@@ -74,8 +74,11 @@
 #' @importFrom curl curl_escape
 #' @importFrom jsonlite fromJSON toJSON
 #' @importFrom R6 R6Class
-#' @docType package
 #' @aliases elastic-package
 #' @author Scott Chamberlain
-#' @name elastic
+#' @keywords internal
+"_PACKAGE"
+
+## usethis namespace: start
+## usethis namespace: end
 NULL

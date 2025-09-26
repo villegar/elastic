@@ -1,4 +1,4 @@
-#' Get counts of the number of records per index.
+#' Get counts of the number of records per index
 #'
 #' @export
 #' @param conn an Elasticsearch connection object, see [connect()]

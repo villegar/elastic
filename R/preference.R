@@ -1,4 +1,4 @@
-#' Preferences.
+#' Preferences
 #' 
 #' @name preference
 #' 

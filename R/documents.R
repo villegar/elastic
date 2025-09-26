@@ -1,4 +1,4 @@
-#' Elasticsearch documents functions.
+#' Elasticsearch documents functions
 #'
 #' @name documents
 #' @details There are five functions to work directly with documents.

@@ -11,7 +11,7 @@
 #' @param routing (character) Specific routing value
 #' @param timeout (character) Explicit operation timeout, e.g,. 5m (for 5 
 #' minutes)
-#' @param conflicts (character) If you’d like to count version conflicts 
+#' @param conflicts (character) If you'd like to count version conflicts 
 #' rather than cause them to abort then set `conflicts=proceed`
 #' @param scroll_size (integer) By default uses scroll batches of 1000. 
 #' Change batch size with this parameter.
@@ -19,13 +19,13 @@
 #' Elasticsearch will perform some preflight checks, launch the request, and 
 #' then return a task which can be used with Tasks APIs to cancel or get the 
 #' status of the task. Elasticsearch will also create a record of this task 
-#' as a document at .tasks/task/${taskId}. This is yours to keep or remove 
-#' as you see fit. When you are done with it, delete it so Elasticsearch 
+#' as a document at \code{.tasks/task/${taskId}}. This is yours to keep or 
+#' remove as you see fit. When you are done with it, delete it so Elasticsearch 
 #' can reclaim the space it uses. Default: `TRUE`
 #' @param wait_for_active_shards (logical) controls how many copies of a 
 #' shard must be active before proceeding with the request. 
 #' @param scroll (integer) control how long the "search context" is kept 
-#' alive, eg `scroll='10m'`, by default it’s 5 minutes (`5m`)
+#' alive, eg `scroll='10m'`, by default it's 5 minutes (`5m`)
 #' @param requests_per_second (integer) any positive decimal number 
 #' (1.4, 6, 1000, etc); throttles rate at which `_delete_by_query` issues 
 #' batches of delete operations by padding each batch with a wait time. 

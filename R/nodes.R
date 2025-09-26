@@ -1,4 +1,4 @@
-#' Elasticsearch nodes endpoints.
+#' Elasticsearch nodes endpoints
 #'
 #' @name nodes
 #' @param conn an Elasticsearch connection object, see [connect()]

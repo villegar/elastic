@@ -1,4 +1,4 @@
-#' Use the cat Elasticsearch api.
+#' Use the cat Elasticsearch API
 #'
 #' @name cat
 #' @param conn an Elasticsearch connection object, see [connect()]
