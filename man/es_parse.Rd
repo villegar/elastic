@@ -16,7 +16,7 @@
 \alias{es_parse.elastic_cluster_pending_tasks}
 \alias{es_parse.elastic_nodes_stats}
 \alias{es_parse.elastic_nodes_info}
-\title{Parse raw data from es_get, es_mget, or es_search.}
+\title{Parse raw data from es_get, es_mget, or es_search}
 \usage{
 es_parse(input, parsetype, verbose)
 
@@ -58,7 +58,7 @@ es_parse(input, parsetype, verbose)
 \item{verbose}{Print messages or not (default: FALSE).}
 }
 \description{
-Parse raw data from es_get, es_mget, or es_search.
+Parse raw data from es_get, es_mget, or es_search
 }
 \details{
 This is the parser used internally in es_get, es_mget, and es_search,

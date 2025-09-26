@@ -30,7 +30,7 @@ docs_delete_by_query(
 
 \item{type}{(character) The type of the document. optional}
 
-\item{conflicts}{(character) If you’d like to count version conflicts
+\item{conflicts}{(character) If you'd like to count version conflicts
 rather than cause them to abort then set \code{conflicts=proceed}}
 
 \item{routing}{(character) Specific routing value}
@@ -44,8 +44,8 @@ Change batch size with this parameter.}
 Elasticsearch will perform some preflight checks, launch the request, and
 then return a task which can be used with Tasks APIs to cancel or get the
 status of the task. Elasticsearch will also create a record of this task
-as a document at .tasks/task/${taskId}. This is yours to keep or remove
-as you see fit. When you are done with it, delete it so Elasticsearch
+as a document at \code{.tasks/task/${taskId}}. This is yours to keep or
+remove as you see fit. When you are done with it, delete it so Elasticsearch
 can reclaim the space it uses. Default: \code{TRUE}}
 
 \item{wait_for_active_shards}{(logical) controls how many copies of a
@@ -55,7 +55,7 @@ shard must be active before proceeding with the request.}
 minutes)}
 
 \item{scroll}{(integer) control how long the "search context" is kept
-alive, eg \code{scroll='10m'}, by default it’s 5 minutes (\verb{5m})}
+alive, eg \code{scroll='10m'}, by default it's 5 minutes (\verb{5m})}
 
 \item{requests_per_second}{(integer) any positive decimal number
 (1.4, 6, 1000, etc); throttles rate at which \verb{_delete_by_query} issues

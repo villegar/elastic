@@ -2,7 +2,7 @@
 % Please edit documentation in R/count.r
 \name{count}
 \alias{count}
-\title{Get counts of the number of records per index.}
+\title{Get counts of the number of records per index}
 \usage{
 count(conn, index = NULL, type = NULL, callopts = list(), verbose = TRUE, ...)
 }
@@ -20,7 +20,7 @@ count(conn, index = NULL, type = NULL, callopts = list(), verbose = TRUE, ...)
 \item{...}{Further args passed on to elastic search HTTP API as parameters.}
 }
 \description{
-Get counts of the number of records per index.
+Get counts of the number of records per index
 }
 \details{
 See docs for the count API here

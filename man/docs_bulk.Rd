@@ -2,7 +2,7 @@
 % Please edit documentation in R/docs_bulk.r
 \name{docs_bulk}
 \alias{docs_bulk}
-\title{Use the bulk API to create, index, update, or delete documents.}
+\title{Use the bulk API to create, index, update, or delete documents}
 \usage{
 docs_bulk(
   conn,
@@ -70,7 +70,7 @@ Set to "features" for conversion to GeoJSON. default: "dataframe"}
 A list
 }
 \description{
-Use the bulk API to create, index, update, or delete documents.
+Use the bulk API to create, index, update, or delete documents
 }
 \details{
 More on the Bulk API:

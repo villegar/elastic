@@ -5,7 +5,7 @@
 \alias{nodes_stats}
 \alias{nodes_info}
 \alias{nodes_hot_threads}
-\title{Elasticsearch nodes endpoints.}
+\title{Elasticsearch nodes endpoints}
 \usage{
 nodes_stats(conn, node = NULL, metric = NULL, raw = FALSE, fields = NULL, ...)
 
@@ -46,7 +46,7 @@ threads. Default: 500ms}
 wait and block to see hot threads that are in wait or block state.}
 }
 \description{
-Elasticsearch nodes endpoints.
+Elasticsearch nodes endpoints
 }
 \details{
 \url{https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-stats.html}

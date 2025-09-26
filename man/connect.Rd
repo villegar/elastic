@@ -2,7 +2,7 @@
 % Please edit documentation in R/Elasticsearch.R
 \name{connect}
 \alias{connect}
-\title{Set connection details to an Elasticsearch engine.}
+\title{Set connection details to an Elasticsearch engine}
 \usage{
 connect(
   host = "127.0.0.1",
@@ -66,7 +66,7 @@ different parameters.}
 \item{...}{additional curl options to be passed in ALL http requests}
 }
 \description{
-Set connection details to an Elasticsearch engine.
+Set connection details to an Elasticsearch engine
 }
 \details{
 The default configuration is set up for localhost access on port

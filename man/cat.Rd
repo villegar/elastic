@@ -18,7 +18,7 @@
 \alias{cat_thread_pool}
 \alias{cat_shards}
 \alias{cat_fielddata}
-\title{Use the cat Elasticsearch api.}
+\title{Use the cat Elasticsearch API}
 \usage{
 cat_(conn, parse = FALSE, ...)
 
@@ -208,7 +208,7 @@ to concrete indices that are open, closed or both.  Valid choices: 'open',
 \item{fields}{(character) Fields to return, only used with \code{fielddata}}
 }
 \description{
-Use the cat Elasticsearch api.
+Use the cat Elasticsearch API
 }
 \details{
 See \url{https://www.elastic.co/guide/en/elasticsearch/reference/current/cat.html}

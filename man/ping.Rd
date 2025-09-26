@@ -2,7 +2,7 @@
 % Please edit documentation in R/ping.r
 \name{ping}
 \alias{ping}
-\title{Ping an Elasticsearch server.}
+\title{Ping an Elasticsearch server}
 \usage{
 ping(conn, ...)
 }
@@ -12,7 +12,7 @@ ping(conn, ...)
 \item{...}{Curl args passed on to \link[crul:verb-GET]{crul::verb-GET}}
 }
 \description{
-Ping an Elasticsearch server.
+Ping an Elasticsearch server
 }
 \examples{
 \dontrun{

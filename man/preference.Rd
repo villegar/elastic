@@ -2,9 +2,9 @@
 % Please edit documentation in R/preference.R
 \name{preference}
 \alias{preference}
-\title{Preferences.}
+\title{Preferences}
 \description{
-Preferences.
+Preferences
 }
 \details{
 \itemize{

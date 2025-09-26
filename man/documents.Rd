@@ -2,9 +2,9 @@
 % Please edit documentation in R/documents.R
 \name{documents}
 \alias{documents}
-\title{Elasticsearch documents functions.}
+\title{Elasticsearch documents functions}
 \description{
-Elasticsearch documents functions.
+Elasticsearch documents functions
 }
 \details{
 There are five functions to work directly with documents.

@@ -2,7 +2,7 @@
 % Please edit documentation in R/search_body.R
 \name{search_body}
 \alias{search_body}
-\title{Full text search of Elasticsearch - body requests.}
+\title{Full text search of Elasticsearch - body requests}
 \usage{
 search_body(
   conn,
@@ -32,7 +32,7 @@ raw JSON.}
 Not used right now.}
 }
 \description{
-Full text search of Elasticsearch - body requests.
+Full text search of Elasticsearch - body requests
 }
 \examples{
 \dontrun{

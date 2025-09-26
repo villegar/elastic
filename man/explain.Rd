@@ -2,7 +2,7 @@
 % Please edit documentation in R/explain.R
 \name{explain}
 \alias{explain}
-\title{Explain a search query.}
+\title{Explain a search query}
 \usage{
 explain(
   conn,
@@ -91,7 +91,7 @@ raw JSON.}
 \item{...}{Curl args passed on to \link[crul:HttpClient]{crul::HttpClient}}
 }
 \description{
-Explain a search query.
+Explain a search query
 }
 \examples{
 \dontrun{
